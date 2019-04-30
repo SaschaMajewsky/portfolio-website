@@ -2383,6 +2383,24 @@ input, select, textarea {
 
 /* Image */
 
+	.workplace {
+		height: 21rem;
+	}
+
+	.banner-image {
+		border-radius: 50%;
+		transform: scale(0.8);
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.banner-image {
+			border-radius: 50%;
+			transform: scale(0.6);
+		}
+
+	}
+
 	.image {
 		border-radius: 5px;
 		border: 0;
@@ -3507,6 +3525,14 @@ input, select, textarea {
 			filter: blur(2px);
 		}
 
+	.logo-title {
+		background-color: rgba(2, 4, 19, 0.3);
+		display:inline-block;
+		padding-left: 15px;
+		padding-right: 15px;
+		border-radius: 5px;
+	}
+
 /* Wrapper */
 
 	#wrapper > header {
@@ -4105,6 +4131,19 @@ input, select, textarea {
 
 		#footer .inner {
 			padding: 2em 1.5em 0.1em 1.5em ;
+		}
+
+	}
+	
+	@media screen and (max-width: 500px) {
+
+		.banner-image {
+			border-radius: 50%;
+			transform: scale(0.6);
+		}
+
+		.workplace {
+			transform: scale(0.8);
 		}
 
 	}
